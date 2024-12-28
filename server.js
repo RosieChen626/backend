@@ -17,4 +17,6 @@ app.get('/',(req,res)=>{
     res.send('api working')
 })
 
-app.listen(port, ()=>console.log('server started', port))
+// app.listen(port, ()=>console.log('server started', port))
+
+export default app;
